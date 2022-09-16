@@ -1,0 +1,17 @@
+// to Calculate Cube Root of a Number
+#include <stdio.h>
+#include <math.h>
+int main(){
+    int number, root;
+    
+    // Asking for input
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    
+    // Calculating cube root using cbrt() Function
+    root = cbrt(number);
+    
+    // Displaying output
+    printf("Cube root of %d is: %d", number, root);
+    return 0;
+}
